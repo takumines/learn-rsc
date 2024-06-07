@@ -1,8 +1,11 @@
+import { Page } from "./Page.js"
+import { Clock } from "./Clock.js"
+
 export const App: React.FC = () => {
 	return (
-		<div>
-			<h1>React Server Components example</h1>
+		<Page>
 			<p>Hello, world!</p>
-		</div>
+			<Clock />
+		</Page>
 	);
 };
