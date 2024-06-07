@@ -1,0 +1,25 @@
+{
+  "name": "learn-rsc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --conditions react-server dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "prettier": "^3.0.3",
+    "react": "19.0.0-rc-827cbea417-20240606",
+    "react-dom": "19.0.0-rc-827cbea417-20240606",
+    "react-server-dom-webpack": "19.0.0-rc-827cbea417-20240606",
+    "typescript": "^5.2.2"
+  }
+}
